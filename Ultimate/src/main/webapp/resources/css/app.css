@@ -1,0 +1,355 @@
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*
+ * See the Getting Started docs for more information:
+ * http://getbootstrap.com/getting-started/#support-ie10-width
+ */
+@-webkit-viewport { width: device-width; }
+@-moz-viewport    { width: device-width; }
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    color: #313131;
+    /*background-color: #F0F8FF;*/
+  
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    /*
+    padding-top:8%;
+    background-color: #eaf0f2;
+    */
+}
+
+
+.nav-padding{
+    padding: 0px;
+}
+
+header{
+    margin: inherit;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+
+.col-md-2, .col-md-7, .col-md-3 {
+    padding-left: 10px;
+    padding-right: 8px;
+}
+
+.left-col{
+    width: 20%;
+}
+
+.content-col{
+    border: 1px solid #d6d6d6;
+    width: 57%;
+    margin-left: .4%;
+    margin-right: .4%
+}
+
+.page_content{
+    min-height: 500px;
+    background: #fff none repeat scroll 0 0;
+    padding: 1% 1% 1% 1%;
+}
+
+.right-col{
+    width: 22%;
+}
+
+div.subject-title {
+    /*border: 1px solid #d6d6d6;*/
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: large;
+    color: yellow;
+    background-image: linear-gradient(to bottom,#0f3b68 0,#0f3b68 100%);
+    text-shadow:2px 2px 2px #000000; 
+    border: 3px solid rgb(245, 245, 245); box-shadow: rgb(136, 136, 136) 2px 2px 2px; 
+    /*background-color: rgb(36, 38, 46);*/
+}
+
+.topic_title {
+    background-image: linear-gradient(to bottom,#0f3b68 0,#0f3b68 100%);
+    text-shadow:1px 1px 1px #000000; 
+    /*background: #316441 none repeat scroll 0 0;*/
+    color: #fff;
+    font-weight: bold;
+    margin: 5px 0 0;
+    padding: 8px;
+}
+
+.article_title{
+    border-bottom: 1px dashed #bbb;
+    color: #000;
+    text-decoration: none;
+    
+    background: url(../images/home/bullet.png) no-repeat 2px 17px;
+    
+}
+.article_title > li> a:hover{
+   
+    font-weight: bold;
+    
+     background: url(../images/home/bullet.png) no-repeat 2px 17px;
+   
+} 
+.nav > li > a, .nav > li > a{
+    color:initial;
+}
+.nav > li > a:focus, .nav > li > a:hover{
+    /*font-weight: bold;*/
+   /* background: url(../images/home/bullet.png) no-repeat 2px 17px;*/
+    background-image: linear-gradient(to bottom,#0f3b68 0,#0f3b68 100%);
+   
+    border-radius: 2px;
+    color:whitesmoke;
+}
+ 
+.article_title_header{
+    border: 1px solid #d6d6d6;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000;
+    font-weight: bold;
+    line-height: 15px;
+    font-size: large;
+    color: white;
+    /*background: #316441 none repeat scroll 0 0;*/
+    background-image: linear-gradient(to bottom,#0f3b68 0,#0f3b68 100%);
+    color:#fff;
+    margin: 5px 0 0;
+    padding: 10px;
+        
+}
+/*----------------------------code added by uds--------------------------------------*/
+
+#menuFirst{
+     
+    float :left;
+    left:198px;
+    width: 100%; 
+    margin:0 auto;
+    position: relative; 
+    line-height: 1.2em;    
+}
+
+#myFont li a:first-child{
+    font-size: 14px;
+    font-family: Verdana;
+    /*font-weight:bolder;*/
+}
+#myFont li a:hover{
+    background-color: black;
+    border-radius: 8px;
+}
+#menuFirst li>a{
+  font-size: 14px;
+  font-weight:bolder;
+  /*padding-right:35px;*/
+}
+
+#menuFirst ul>li{
+    display: inline;
+    padding-right:65px;
+}
+#menuFirst ul li>a{
+    text-decoration:none;
+    color:whitesmoke;     
+    /*float:left;padding-right:100px;padding-left:322px;*/
+}
+/*#menuFirst1 ul li:first-child{
+    text-decoration:none;
+    color:whitesmoke;     
+    border: 3px outset rgb(245, 245, 245); 
+    box-shadow: rgb(136, 136, 136) 1px 1px 1px; 
+    background-color: rgb(36, 38, 46);
+    padding:8px;
+}*/
+/*#menuFirst ul li>a:hover{
+    text-decoration:none;
+    
+    color: #FCF8E3;
+    
+    
+    background-color: #000;
+    border:1px solid #000;
+    
+    border-radius: 50%;
+    padding:8px;
+    border: 2px rigid rgb(245, 245, 245); 
+    box-shadow: rgb(136, 136, 136) 1px 1px 1px; 
+    background-color: rgb(36, 38, 46);
+} */
+
+
+/*#menuFirst li:last-child{
+    color: yellow;
+    font-weight: bold;
+    padding-right: 0px;
+    float: right;
+}*/
+#menuFirst #hideMsg ul li{
+    color: yellow; 
+    font-weight: bold;
+    float:left;
+    position: relative;
+    left:0px;
+}
+@media only screen and (max-width: 479px){
+    #menuFirst { width: 100%; }
+}
+#left{
+    
+    border: 1px ridge rgb(245, 245, 245);
+    padding-top: 4px;
+    padding-bottom: 1px;   
+}
+
+#middle{
+    /*border: 2px ridge rgb(245, 245, 245); */
+    box-shadow: rgb(136, 136, 136)1px 1px 2px 2px;  
+  
+   /*background-color: rgb(36, 38, 46);*/
+}
+
+#right{
+    /*box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;*/
+    border: 1px ridge rgb(245, 245, 245);
+    /*width: 22%;*/
+     
+    text-align: justify;
+}
+
+
+.nav1 {
+    left:110%;     
+    top:55px;
+    /*position:absolute;*/
+   list-style-type: none;      
+} 
+.nav1>li>a:hover, .nav1>li>a:focus, .nav1 .open>a, .nav1 .open>a:hover, .nav1 .open>a:focus {
+    background:#fff;
+}
+/*.dropdown1 {
+    background:#fff;
+    border:1px solid #ccc;
+    border-radius:4px;
+    width:300px;    
+}*/
+.dropdown-menu{
+    min-width: 250px;
+}
+.dropdown-menu>li>a {
+    /*color:#428bca;*/
+}
+.dropdown1 ul.dropdown-menu{
+    border-radius:4px;
+    box-shadow:none;
+    margin-top:10px;
+    width:250px;
+    margin-left: 20px;
+}
+/*--------------this will make top arrow----------------*/
+.dropdown1 ul.dropdown-menu:before {
+    content: "";
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    right: 108px;
+    z-index: 10;
+}
+.dropdown1 ul.dropdown-menu:after {
+    content: "";
+    border-bottom: 12px solid #ccc;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    right: 106px;
+    z-index: 9;
+}
+
+/*-----------------------------------this will make button as circle ----------------------*/
+.btn-round {
+      
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.btn-round.btn-lg {
+    
+    width: 50px;
+    height: 50px;
+    
+}
+
+/*-----------------------------------this will make button as circle @ jumbotron ----------------------*/
+.btn-roundJ {      
+    width: auto;
+    height: auto;
+    border-radius: 50%;    
+}
+ #JumbortronMenu #JumbortronMenuChild .btn-roundJ>a:hover{      
+     text-decoration: none;
+     color:red;
+}
+/*header div>a:hover{
+    text-decoration: none; 
+    color:#000; 
+}*/ 
+
+/*--------------------After 13-march-2016 : apply on dropdown menu------------------------------------------------*/
+dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover{
+    /*background-color: #0f3b68;*/
+    background-image: linear-gradient(to bottom,#0f3b68 0,#0f3b68 100%);
+    color:#fff;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .open > a{
+    background-image: linear-gradient(to bottom,#000 0,#000 100%);
+    border-radius: 8px;
+}
+
+
+/*.nav > li > a:focus, .nav > li > a:hover{
+    background-image: linear-gradient(to bottom,#0f3b68 0,#0f3b68 100%);
+}*/
+.page-header {
+  border-bottom: 0px solid #eee;
+    padding-bottom: 1px;
+    margin: 40px 0 12px;
+  
+}
+
+/*.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+}*/

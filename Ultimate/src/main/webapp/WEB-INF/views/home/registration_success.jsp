@@ -1,0 +1,1 @@
+<center><h1>Registration successful , please check your email for activation</h1></center>

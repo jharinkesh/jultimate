@@ -1,0 +1,58 @@
+ 
+@-webkit-viewport { width: device-width; }
+@-moz-viewport    { width: device-width; }
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+
+.contact-data{
+float:left;
+width: 100%;
+min-height: 42px;
+background-color: #f7f7f7;
+margin: 0px 0px 20px 0px;
+border: 1px solid #ddd;
+padding: 4px 10px;
+color: #333;
+text-transform: capitalize;
+}
+
+.contact-submit{
+float: left;
+margin: 0px 0px 20px 0px;
+padding: 10px 30px;
+color: #fff;
+font-size: 14px;
+text-transform: uppercase;
+border: none;
+border-radius: 0px;
+  background-color:#0f3b68;
+
+ 
+}
+  .contact-submit:hover {
+     background-color:#009900;
+    color:#fff;
+    font-weight: bold;
+}
+.contact-page ul li i {
+    background: #eee none repeat scroll 0 0;
+    font-size: 25px;
+    height: 70px;
+    line-height: 70px;
+    margin: 0px 10px 20px 0;
+    text-align: center;
+    width: 60px;
+}
+.contact-page ul li p {
+    margin: 0px;
+    display: inline-block;
+    float: none;
+}
+.contact-page ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 100%;
+}
